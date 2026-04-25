@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local caches/config
+.mplconfig/
+
+# Large local datasets (keep out of repo)
+KuaiLive/
+data/KuaiLive/
+
+# Generated experiment artifacts
+results/tables/*.npy
+results/tables/kuailive_curve_metadata.csv
+results/figures/*.png
